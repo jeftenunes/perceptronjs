@@ -1,4 +1,4 @@
-const mod = require('../perceptron');
+const mod = require('./perceptron');
 
 test('1 AND 1 to equal 1', () => {
     expect(mod.perceptron(1, 1)).toBe(1);
